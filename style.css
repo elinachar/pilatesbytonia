@@ -163,3 +163,10 @@
 
 /* Equipment images blend into their section at every viewport width. */
 .equipment-photo,.equipment-photo img,.apparatus-image-frame,.apparatus-row>figure{background:transparent}
+
+
+@media (max-width: 761px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
